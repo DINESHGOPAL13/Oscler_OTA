@@ -1,0 +1,40 @@
+2023-05-14 19:31:30,665 - INFO - Successfully connected to device
+2023-05-14 19:31:30,665 - INFO - Connected to local tomcat server
+2023-05-14 19:31:30,665 - INFO - firmware.bin image downloaded successfully
+2023-05-14 19:31:30,665 - INFO - OTA update is available
+2023-05-14 19:31:30,665 - INFO - Device is Rebooted successfully
+2023-05-14 19:31:30,665 - INFO - OTA firmware is Updated Successfully to device
+2023-05-14 19:50:16,352 - INFO - Successfully connected to device
+2023-05-14 19:50:16,352 - INFO - Connected to local tomcat server
+2023-05-14 19:50:16,352 - INFO - firmware.bin image downloaded successfully
+2023-05-14 19:50:16,352 - INFO - OTA update is available
+2023-05-14 19:50:16,352 - INFO - Device is Rebooted successfully
+2023-05-14 19:50:16,352 - INFO - OTA firmware is Updated Successfully to device
+2023-05-14 19:50:57,044 - INFO - Successfully connected to device
+2023-05-14 19:50:57,044 - INFO - Connected to local tomcat server
+2023-05-14 19:50:57,044 - INFO - firmware.bin image downloaded successfully
+2023-05-14 19:50:57,059 - INFO - OTA update is available
+2023-05-14 19:50:57,060 - INFO - Device is Rebooted successfully
+2023-05-14 19:50:57,060 - INFO - OTA firmware is Updated Successfully to device
+2023-05-14 19:58:02,700 - INFO - Unable to connect to device
+2023-05-14 19:58:02,700 - ERROR - OTA update failed: Failed to connect to device
+2023-05-14 20:31:54,778 - INFO - Unable to connect to device
+2023-05-14 20:31:54,778 - ERROR - OTA update failed: Failed to connect to device
+2023-05-14 20:32:12,259 - INFO - Successfully connected to device
+2023-05-14 20:32:12,259 - INFO - Connected to local tomcat server
+2023-05-14 20:32:12,259 - INFO - firmware.bin image downloaded successfully
+2023-05-14 20:32:12,259 - INFO - OTA update is available
+2023-05-14 20:32:12,259 - INFO - Device is Rebooted successfully
+2023-05-14 20:32:12,259 - INFO - OTA firmware is Updated Successfully to device
+2023-05-14 21:23:56,989 - INFO - Successfully connected to Server Portal
+2023-05-14 21:23:56,989 - INFO - Connected to local tomcat server
+2023-05-14 21:23:56,989 - INFO - firmware.bin image downloaded successfully
+2023-05-14 21:23:56,989 - INFO - OTA update is available
+2023-05-14 21:23:56,989 - INFO - Device is Rebooted successfully
+2023-05-14 21:23:56,989 - INFO - OTA firmware is Updated Successfully to device
+2023-05-14 22:49:42,780 - INFO - Successfully connected to Server Portal
+2023-05-14 22:49:42,780 - INFO - Connected to local tomcat server
+2023-05-14 22:49:42,780 - INFO - firmware.bin image downloaded successfully
+2023-05-14 22:49:42,780 - INFO - OTA update is available
+2023-05-14 22:49:42,780 - INFO - Device is Rebooted successfully
+2023-05-14 22:49:42,780 - INFO - OTA firmware is Updated Successfully to device
