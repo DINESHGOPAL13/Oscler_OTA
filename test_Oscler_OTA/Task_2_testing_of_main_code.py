@@ -2,7 +2,16 @@ import os
 import unittest
 import requests
 # imports functions from prototype class for testing
-
+'''This test class includes the below test method
+1.test_connect_success
+2.test_connect_Failure_1_invalid_url
+3.test_connect_Failure_2_empty_url
+4.test_connect_Failure_3_Server_error
+5.test_retrieve_firmware_available_success
+6.test_download_firmware_verify_file_exist
+7.test_download_firmware_verify_file_non_exist
+8.test_download_firmware_verify_file_name
+'''
 from test_Oscler_OTA.Task_1_OTA_main_prototype_code import (
     connect,
     retrieve_firmware_available,

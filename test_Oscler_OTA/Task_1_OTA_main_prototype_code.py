@@ -52,13 +52,13 @@ def get_device_firmware_revision():
     return (1, 0)
 
 
-# In this function will download and open the firmware file in binary mode
+# In this function will download and open the firmware file
 def download_firmware():
     filename = 'firmware.bin'
     try:
         with open(filename, 'wb') as f:
             f.write(response.content)
-        # check if the file exists on working directory
+        # check if the file exists on working directory(file storage repository)
         if os.path.exists(filename):
             print(f'{filename} image downloaded successfully')
             logging.info(f'{filename} image downloaded successfully')
@@ -113,7 +113,7 @@ if __name__ == '__main__':
                 print('OTA update is available')
                 logging.info('OTA update is available')
                 hardware_revision = get_device_hardware_revision()
-                #version compatiblity checking
+                #version compatibility checking
                 if version_compatible(latest_firmware, hardware_revision):
 
                     if program_firmware(firmware_image):
