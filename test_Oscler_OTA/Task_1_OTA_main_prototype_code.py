@@ -4,12 +4,12 @@ import os
 
 ''' 
 ->Deployed the firmware.bin image file to my local Tomcat webserver and made the local server active so that 
-firmware can download from below deployed URL
+firmware can download from below deployed URL through that cloud portal firmware image download is simulated 
 ->URL = 'http://localhost:8080/OTA/firmware.bin 
-->Trying to hit the URL and download the file and place it on workspace then check the download file exists or not
-->Based on that will perform the version compatibility and then finally update the firmware to device successfully
+->Trying to hit the URL and download the file and place it on workspace then check the download file exists or not 
+->Based on that will perform the version compatibility and then after program firmware and reboot finally the OTA firmware image is updated to device successfully 
  
-->And Included the ota.log file with workspace for to track the execution flow with log'''
+->And Included the ota.log file within workspace for to track the execution flow with log'''
 
 import requests
 
@@ -113,7 +113,7 @@ if __name__ == '__main__':
                 print('OTA update is available')
                 logging.info('OTA update is available')
                 hardware_revision = get_device_hardware_revision()
-                # if latest_firmware <= hardware_revision:
+                #version compatiblity checking
                 if version_compatible(latest_firmware, hardware_revision):
 
                     if program_firmware(firmware_image):
